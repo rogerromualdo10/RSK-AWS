@@ -4,4 +4,4 @@ def s3_create_bucket_client(bucket_name):
     response = s3.create_bucket(Bucket=bucket_name)
     return response
 
-s3_create_bucket_client('rsk-prod')
+s3_create_bucket_client('rsk-qa')

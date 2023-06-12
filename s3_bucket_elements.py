@@ -6,4 +6,4 @@ def S3_bucket_elements(bucket_name):
         print(object.key)
     return bucket
 
-S3_bucket_elements('rsk-test')
+S3_bucket_elements('rsk-dev')
